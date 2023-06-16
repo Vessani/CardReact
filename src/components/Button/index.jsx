@@ -1,3 +1,5 @@
+import styles from "./styles.module.css"
+
 export default function Button() {
-    return <button>Comprar Agora</button>
+    return <button className={styles.wrapper}>Comprar Agora</button>
 }
