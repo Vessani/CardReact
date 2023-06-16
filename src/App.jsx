@@ -1,11 +1,11 @@
+import { Fragment } from 'react'
 import Card from './components/Card'
 
-export default function App() {
-  
+export default function App() {  
   return (
-    <div className='app'>
+    <>
+      <h1>Exercicio 02</h1>
       <Card />
-    </div>
-    
+    </>    
   )
 }
